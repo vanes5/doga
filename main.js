@@ -28,5 +28,5 @@ document.getElementById("legkis").addEventListener("click", ()=>{
         }
     });
 
-    document.getElementById("legkis").innerHTML = "A legkisebb szám a listában: " + legkis;
+    document.getElementById("legkisebb").innerHTML = "A legkisebb szám a listában: " + legkis;
 })
