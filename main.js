@@ -5,6 +5,11 @@ document.addEventListener("DOMContentLoaded", ()=>{
 document.getElementById("gomb").addEventListener("click", ()=>{
     szam = document.getElementById("szam");
     lista.add(szam);
+    szoveg = "";
+
+    lista.forEach(szam => {
+        szoveg += szam + ", ";
+    });
 
 
 })
