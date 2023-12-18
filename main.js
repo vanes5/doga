@@ -1,5 +1,5 @@
 
-document.getElementById("gomb").addEventListener("click", ()=>{
+document.getElementById("fel").addEventListener("click", ()=>{
     let list = [];
 
     let szam = document.getElementById("szam");
