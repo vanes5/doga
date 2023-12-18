@@ -11,5 +11,7 @@ document.getElementById("gomb").addEventListener("click", ()=>{
         szoveg += szam + ", ";
     });
 
+    document.getElementById("lista").innerHTML = szoveg;
+
 
 })
