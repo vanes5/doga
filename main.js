@@ -18,3 +18,15 @@ button.addEventListener("click", ()=>{
 
 
 });
+
+document.getElementById("legkis").addEventListener("click", ()=>{
+    let legkis = list[0];
+
+    list.forEach(szam =>{
+        if(szam < legkis){
+            legkis = szam;
+        }
+    });
+
+    document.getElementById("legkis").innerHTML = "A legkisebb szám a listában: " + legkis;
+})
