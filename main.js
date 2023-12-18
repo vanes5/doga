@@ -5,7 +5,7 @@ button.addEventListener("click", ()=>{
     let list = [];
 
     let szam = document.getElementById("szam");
-    list.add(szam);
+    list.push(szam);
     let szoveg = "";
 
     list.forEach(szam => {
