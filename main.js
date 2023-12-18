@@ -1,5 +1,7 @@
 
-document.getElementById("fel").addEventListener("click", ()=>{
+let button = document.getElementById("fel");
+
+button.addEventListener("click", ()=>{
     let list = [];
 
     let szam = document.getElementById("szam");
