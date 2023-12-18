@@ -1,17 +1,16 @@
-document.addEventListener("DOMContentLoaded", ()=>{
-    lista = [];
-})
 
 document.getElementById("gomb").addEventListener("click", ()=>{
-    szam = document.getElementById("szam");
-    lista.add(szam);
-    szoveg = "";
+    let list = [];
 
-    lista.forEach(szam => {
+    let szam = document.getElementById("szam");
+    list.add(szam);
+    let szoveg = "";
+
+    list.forEach(szam => {
         szoveg += szam + ", ";
     });
 
     document.getElementById("lista").innerHTML = szoveg;
 
 
-})
+});
