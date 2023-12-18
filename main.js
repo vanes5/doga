@@ -1,10 +1,12 @@
 
 let button = document.getElementById("fel");
+let list = [];
 
 button.addEventListener("click", ()=>{
-    let list = [];
 
     let szam = document.getElementById("szam");
+    szam = JSON.stringify(szam);
+    szam = parseInt(szam);
     list.push(szam);
     let szoveg = "";
 
